@@ -41,9 +41,11 @@ nav {
 }
 
 footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 .img_escalacao {
     width: 100px;
@@ -51,11 +53,34 @@ footer {
     object-fit: cover;
     border-radius: 10px;
     margin: 5px;
-    
-
 }
+
 #escalacao {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+
+}
+#escalacao h2 {
+    width: 100%;          
+    text-align: center;   
+    color: white;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jogador {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;
+    margin: 10px;
+}
+
+.jogador p {
+    margin: 5px 0 0 0;  
+    font-size: 14px;
 }
