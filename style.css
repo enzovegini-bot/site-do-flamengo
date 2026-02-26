@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: rgb(32, 9, 9);
+}
+nav{
+    background-color: rgb(177, 5, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+
+}
+#icon{
+    width: 85px;
+}
+
+.noticia{
+    border: 5px solid black;
+   color: white;
+    background-color: rgb(26, 4, 4);
+}
+
+
+.img_noticia{ 
+    width: 400px;
+
+}
