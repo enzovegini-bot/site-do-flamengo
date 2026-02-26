@@ -67,7 +67,7 @@ footer {
 }
 #escalacao h2 {
     width: 100%;          
-    text-align: center;   
+    text-align: center; 
     color: white;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,4 +83,10 @@ footer {
 .jogador p {
     margin: 5px 0 0 0;  
     font-size: 14px;
+}
+.gif-canto {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 120px;
 }
